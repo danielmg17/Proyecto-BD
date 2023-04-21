@@ -15,6 +15,10 @@ public class PersonaModel {
         this.nombre = Nombre;
         this.telefono = Telefono;
     }
+    
+   public PersonaModel() {
+
+    }    
 
     public String getApellidos() {
         return apellidos;
